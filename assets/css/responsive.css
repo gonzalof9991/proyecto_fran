@@ -1,0 +1,25 @@
+@media screen and (min-width: 100px) and (max-width: 600px) {
+
+    .img__xl{
+        display: none;
+    }
+
+    .img__sm{
+        display: block;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 2800px) {
+    body{
+      
+    }
+
+    .img__sm{
+        display: none;
+    }
+
+    .img__xl{
+        display: block;
+    }
+  }
+  
